@@ -7,6 +7,7 @@
 }
 body {
   background: rgb(2, 0, 36);
+/* *lineer,radial,conic-gradients hakkinda daha fazla bilgi icin https://www.w3schools.com/css/css3_gradients.asp  */
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
@@ -33,6 +34,7 @@ main {
   border-radius: 5px;
   width: 80%;
   background-color: rgba(255, 255, 255, 0.3);
+/** text-shadow ve box-shadow daha fazla bilgi icin https://www.w3schools.com/css/css3_shadows.asp */
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
