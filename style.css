@@ -1,93 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-  background: rgb(2, 0, 36);
-/* *lineer,radial,conic-gradients hakkinda daha fazla bilgi icin https://www.w3schools.com/css/css3_gradients.asp  */
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(121, 9, 83, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+    background: rgb(2, 0, 36);
+    /* *lineer,radial,conic-gradients hakkinda daha fazla bilgi icin https://www.w3schools.com/css/css3_gradients.asp  */
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(121, 9, 83, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+    );
 }
 header {
-  text-align: center;
-  margin: 10px;
-  font-family: "Rubik Vinyl", cursive;
-  color: white;
-  font-size: 2.5rem;
-  letter-spacing: 3px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Rubik Vinyl", cursive;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
 }
 main {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 .card {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  width: 80%;
-  background-color: rgba(255, 255, 255, 0.3);
-/** text-shadow ve box-shadow daha fazla bilgi icin https://www.w3schools.com/css/css3_shadows.asp */
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
-    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.3);
+    /** text-shadow ve box-shadow daha fazla bilgi icin https://www.w3schools.com/css/css3_shadows.asp */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+.card:hover{
+transform: scale(1.02);
+}
+
 .img-section {
-  width: 30%;
+    width: 30%;
 }
 .img-section img {
-  padding: 5px;
-  float: left;
-  width: 100%;
-  height: 225px;
+    padding: 5px;
+    float: left;
+    width: 100%;
+    height: 225px;
 }
 .text h3 {
-  font-family: "EB Garamond", serif;
-  font-size: 2rem;
-  text-align: left;
-  color: sandybrown;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: left;
+    color: sandybrown;
 }
 
 .text p {
-  font-family: "Times New Roman", Times, serif;
-  text-align: justify;
-  color: white;
-  font-weight: 300;
-  text-indent: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    color: white;
+    font-weight: 300;
+    text-indent: 1rem;
 }
 
-
 .img-section img:hover {
-  cursor: pointer;
-  height: 275px;
-  width: max-content;
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 .text button {
-  float: right;
-  margin: 10px auto;
-  width: 100px;
-  height: 35px;
-  border-radius: 5px;
-  background-color: coral;
-  border: none;
-  outline: none;
-  cursor: pointer;
+    float: right;
+    margin: 10px auto;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: coral;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .text button:hover {
-  width: 120px;
-  height: 45px;
+    transform: scale(1.2);
 }
 
 .text > button a {
-  text-decoration: none;
-  color: white;
-} 
+    text-decoration: none;
+    color: white;
+}
