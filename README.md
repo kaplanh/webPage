@@ -1,6 +1,7 @@
 # Project-00-1 : Web Page Design
 
 [click me](https://kaplanh.github.io/webPage/)
+![webpage design1](https://github.com/kaplanh/webPage/assets/101884444/1882cd39-ecac-49f1-a248-fe1876586002)
 
 
 ## Description
